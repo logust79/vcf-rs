@@ -75,7 +75,7 @@ pub struct VCFReader<R: BufRead> {
     buffer: Vec<u8>,
     unprocessed_line: Option<Vec<u8>>,
     current_line: u64,
-    reader: R,
+    pub reader: R,
     vcf_header: VCFHeader,
 }
 

@@ -7,6 +7,9 @@ vcf-rs
 [![GitHub top language](https://img.shields.io/github/languages/top/informationsea/vcf-rs)](https://github.com/informationsea/vcf-rs)
 
 Rust implementation of VCF parser.
+Fork change
+-------
+expose `VCFRecord::reader` to public, to make it easy to process records in parallel.
 
 License
 -------
